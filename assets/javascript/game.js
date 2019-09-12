@@ -61,7 +61,7 @@ $(".pyramid").on('click', function(){
     scoreCheck();
     })
 
-$(".cube").on('click', function(){
+$(".heart").on('click', function(){
     currentScore += crystal4;
     $(".current").text(currentScore);
     scoreCheck();
