@@ -24,7 +24,7 @@ function scoreCheck(){
     wins ++;
     resetGame ();
     updateScore ();
-    else if (currentScore > targetScore) {
+    }else if (currentScore > targetScore) {
         alert ("Try Again");
         loses ++;
         resetGame ();
@@ -38,30 +38,30 @@ function updateScore () {
 }
 
 function resetDom () {
-    $(".target").text(taretScore)
+    $(".target").text(targetScore)
     $(".current").text(currentScore)
 
 }
 
-$(".circle").on('click', function(){
+$("#circle").on('click', function(){
     currentScore += crystal1;
     $(".current").text(currentScore);
     scoreCheck();
     })
 
-$(".diamond").on('click', function(){
+$("#diamond").on('click', function(){
     currentScore += crystal2;
     $(".current").text(currentScore);
     scoreCheck();
     })
 
-$(".pyramid").on('click', function(){
+$("#pyramid").on('click', function(){
     currentScore += crystal3;
     $(".current").text(currentScore);
     scoreCheck();
     })
 
-$(".heart").on('click', function(){
+$("#heart").on('click', function(){
     currentScore += crystal4;
     $(".current").text(currentScore);
     scoreCheck();
@@ -71,6 +71,6 @@ $(".heart").on('click', function(){
     console.log(targetscore)
     
     }
-})
+)
 
 
