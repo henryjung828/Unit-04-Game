@@ -68,8 +68,12 @@ $("#heart").on('click', function(){
     })
 
     updateScore();
-    console.log(targetscore)
-    
+    console.log(targetScore)
+    console.log(crystal1)
+    console.log(crystal2)
+    console.log(crystal3)
+    console.log(crystal4)
+
     }
 )
 
