@@ -1,85 +1,22 @@
 *{
     box-sizing: border-box;
     text-align: center;
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif
-
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
+
+
   
-.body {
-    font-size: 18px;
-   
-  
+body {
+    background-image: url("https://i2.wp.com/www.123freevectors.com/wp-content/original/117238-abstract-light-grey-blurred-bokeh-background-vector.jpg?w=800&q=95");
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: bolder;
 }
 
-.headerBox, .navBox {
-    padding: 20px;
-    margin-bottom: 20px;
-    margin-left: 3%;
-    margin-right: 3%;
-    color: #777;
-    background: #ebebeb;
-}
-
-#sectionBox {
-    padding: 20px;
-    margin-left: 3%;
-    margin-right: 2%;
-    margin-bottom: 2%;
-    float: left;
-    color: #777;
-    background: #ebebeb;
-    width: 52%;
-}
-
-#asideBox {
-    padding: 165px;
-    margin-right: 3%;
-    margin-bottom: 2%;
-    float: left;
-    color: #777;
-    background: #ebebeb;
-    width: 40%;
-}
-
-.articleBox {
-    padding: 50px;
-    margin-left: 1%;
-    margin-right: 1%;
-    color: #ebebeb;
-    background: grey;
-}
-
-.hBox {
-    padding: 20px;
-    margin-bottom: 5%;
-    margin-left: -5%;
-    margin-right: -5%;
-    color: #777;
-    background: #ebebeb;
-    font-style: bold;
+.row {
+font-size: 15px;
 
 }
 
-.pBox {
-    padding: 20px;
-    margin-left: -5%;
-    margin-right: -5%;
-    color: #777;
-    background: #ebebeb;
-}
-
-.full {
-    clear: both;
-    overflow: auto;
-}
-
-.footerBox {
-    padding: 20px;
-    margin-bottom: 20px;    
-    margin-left: 3%;
-    margin-right: 3%;
-    color: #777;
-    background: #ebebeb;
-}
 
